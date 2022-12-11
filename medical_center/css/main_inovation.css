@@ -100,7 +100,7 @@
   .main-inovation {
     display: flex;
     flex-direction: column;
-    height: 710px;
+    height: 720px;
     background-color: #4fbfa5;
     width: 360px;
     padding: 215px 12px 0px 8px;
@@ -127,6 +127,7 @@
     margin-right: 114px;
     background-color: #00868a;
     color: white;
+    height: 335px;
   }
   .main-inovation-container-more {
     display: flex;
@@ -154,7 +155,7 @@
   .main-recommend-container {
     width: 360px;
     background-color: #00868a;
-    padding: 25px 0 40px 0px;
+    padding: 25px 0px 40px 0px;
     height: 280px;
   }
   .main-recommend-container button {
@@ -202,7 +203,7 @@
     display: block;
     font-size: 28px;
     font-weight: bold;
-    margin: 10px 30px 40px 30px;
+    margin: 10px 80px 40px 30px;
     text-transform: lowercase;
   }
   .main-inovation-container-button {
