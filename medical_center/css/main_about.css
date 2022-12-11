@@ -1,0 +1,189 @@
+.main-about {
+  margin-left: 0;
+  margin-bottom: 80px;
+  padding: 0;
+  width: 1349px;
+  background-color: #4fbfa5;
+  height: 650px;
+}
+.main-about-information {
+  display: flex;
+  justify-content: space-around;
+  margin: 0px 100px 21px 130px;
+  padding: 30px 0;
+  font-size: 18px;
+  color: white;
+  cursor: pointer;
+}
+.main-about-information button {
+  background-color: white;
+  color: black;
+  border: none;
+  margin: 6px 10px 0 30px;
+  padding: 0px, 15px, 10px, 15px;
+  width: 175px;
+  gap: 10px;
+  height: 40px;
+  cursor: pointer;
+}
+.main-about-more {
+  display: flex;
+}
+.main-about-more-information-picture {
+  width: 546px;
+  height: 433px;
+}
+.main-about-more-information h1 {
+  font-size: 48px;
+  color: white;
+}
+.main-about-more-information p {
+  color: white;
+  margin: 20px 100px 40px 0;
+  font-size: 14px;
+}
+.main-about-more-information button {
+  color: white;
+  font-size: 18px;
+  padding: 15px, 25px, 14px, 25px;
+  width: 163px;
+  height: 50px;
+  gap: 10px;
+  background-color: #00868a;
+  border: none;
+  cursor: pointer;
+}
+.main-about-more-information-buttons {
+  display: flex;
+  margin: 60px 60px 0 400px;
+  cursor: pointer;
+}
+.main-about-more-information-buttons-left {
+  border: 1px solid white;
+  margin-left: 15px;
+  padding: 5px;
+}
+.main-about-more-information-buttons-rigth {
+  border: 1px solid white;
+  border-left: none;
+  padding: 5px;
+}
+.main-about-buttons button {
+  height: 80px;
+  color: white;
+  font-size: 21px;
+  cursor: pointer;
+}
+.main-about-buttons button:nth-child(1) {
+  background-color: #00868a;
+  border: #00868a;
+  width: 600px;
+}
+.main-about-buttons button:nth-child(2) {
+  background-color: #4fbfa5;
+  border: #4fbfa5;
+  width: 250px;
+}
+.main-about-buttons button:nth-child(3) {
+  background-color: #00868a;
+  border: #00868a;
+  width: 250px;
+}
+@media (max-width: 420px) {
+  .main-about-container {
+    margin: 0 10px 215px 9px;
+  }
+  .main-about {
+    margin: 0;
+    padding: 0;
+    width: 380px;
+    height: 712px;
+    background-color: #4fbfa5;
+  }
+  .main-about-information {
+    margin: 0px 0px 10px 0px;
+    padding: 10px 0;
+    font-size: 18px;
+    color: white;
+    cursor: pointer;
+  }
+  .main-about-information p {
+    display: none;
+  }
+  .main-about-information button {
+    background-color: #00868a;
+    color: white;
+    border: none;
+    margin: 10px 40px 0 10px;
+    padding: 0px, 15px, 10px, 15px;
+    width: 175px;
+    gap: 10px;
+    height: 40px;
+    cursor: pointer;
+    font-weight: bold;
+  }
+  .main-about-more {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-about-more-information-picture {
+    width: 360px;
+    height: 200px;
+    margin-bottom: 2px;
+  }
+  .main-about-more-information h1 {
+    line-height: 10px;
+    font-size: 48px;
+    color: white;
+    margin-left: 18px;
+  }
+  .main-about-more-information p {
+    display: none;
+  }
+  .main-about-more-information button {
+    color: white;
+    font-size: 18px;
+    margin-left: 3px;
+    padding: 15px, 25px, 14px, 25px;
+    width: 163px;
+    height: 40px;
+    background-color: #00868a;
+    border: none;
+    cursor: pointer;
+  }
+  .main-about-more-information-buttons {
+    display: flex;
+    margin: 60px 60px 0 0px;
+    cursor: pointer;
+  }
+  .main-about-more-information-buttons-left {
+    display: none;
+  }
+  .main-about-more-information-buttons-rigth {
+    display: none;
+  }
+  .main-about-buttons {
+    height: 40px;
+    color: white;
+    font-size: 21px;
+    cursor: pointer;
+    background-color: #00868a;
+  }
+  .main-about-buttons button:nth-child(1) {
+    background-color: #00868a;
+    border: #00868a;
+    width: 360px;
+    margin-bottom: 2px;
+  }
+  .main-about-buttons button:nth-child(2) {
+    background-color: #00868a;
+    border: #00868a;
+    width: 360px;
+    margin-bottom: 2px;
+  }
+  .main-about-buttons button:nth-child(3) {
+    background-color: #00868a;
+    border: #00868a;
+    width: 360px;
+  }
+}
